@@ -1,0 +1,68 @@
+:root{
+    --primary-color: #09d809;
+    --secondary-color: #000;
+    --back-color: #218321;
+    --text-color: #fff;
+    --font: 'Poppins', sans-serif;
+}
+body {
+  font-size: clamp(1rem, 1.5vw, 1.25rem); /* ~16px to 20px */
+  background-color: black;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem); /* ~32px to 64px */
+}
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2.5rem); /* ~24px to 40px */
+}
+button {
+  font-size: clamp(0.75rem, 1vw, 1rem); /* ~12px to 16px */
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+a{
+    text-decoration: none;
+}
+h1{
+    /* font-size: 2em; */
+    font-family: var(--font);
+}
+h2{
+    /* font-size: 1.5em; */
+     font-family: var(--font);
+}
+p{
+    font-size: 1em;
+     font-family: var(--font);
+}
+.bi-facebook{
+    color: #4267b2;
+}
+.bi-instagram{
+    color: #c13584;
+}
+.bi-whatsapp{
+    color: #075e54;
+}
+.bi-linkedin{
+    color: #0e76a8;
+}
+/* body {
+  font-size: clamp(1.5em, 2vw, 1.5em);
+}
+
+h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+} */
+/* --------------Generic styling with JS------------ */
+.sent{
+  /* display: none; */
+  margin-top: 10px;
+  color: var(--primary-color);
+}

@@ -1,0 +1,85 @@
+@media (min-width: 481px){
+    .logo{
+        display: flex;
+        align-items: center;
+        color: #fff;
+        font-size: 2em;
+    }
+    .large-screens{
+        display: block;
+        width: fit-content;
+    }
+    .profile{
+        display: none;
+    }
+    .navb-list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px 2rem;
+    }
+    .navb-items{
+        list-style: none;
+    }
+    .navb-items a{
+        color: #000;
+        /* background-color: black; */
+        padding: 5px 10px;
+        border: none;
+        /* border-radius: 5px; */
+        font-weight: 600;
+    }
+    .navb-items a:hover{
+        border-bottom: 2px solid ;
+    }
+    .home-content p{
+        font-size: 1.5em;
+    }
+     .hire{
+        padding-top: 30px;
+    }
+    .btn{
+        /* padding: 20px 40px; */
+        margin: 0 30px;
+        border-radius: 30px;
+        /* font-weight: 600; */
+        font-size: 1.2em;
+        transition: all ease-in-out 3ms;
+    }
+    /*-----------------about-----------*/
+    .home-content{
+        /* padding: 10px 100px; */
+        color: #fff;
+    }
+   
+    .summary p{
+        font-size: 1.6em;
+    }
+
+    /*----------------skills-------------*/
+    /*----------------My work------------*/
+    .project-list{
+        padding: 0 30px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    .project.nonactive{
+        display: block;
+    }
+    .see-more{
+        border: none;
+        border-radius: 10px;
+        padding: 10px 30px;
+        width: fit-content;
+        margin-top: 20px;
+        color: #fff;
+    }
+    /* ------------Contact---------------- */
+        .submit{
+        padding: 10px 15px;
+        margin-left: 0%;
+        border: none;
+        color: #fff;
+    }
+}

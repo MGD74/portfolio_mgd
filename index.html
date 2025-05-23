@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo MGD Portfolio</title>
+    <link rel="stylesheet" href="views/styles.css">
+    <link rel="stylesheet" href="views/mobile_styling.css">
+    <link rel="stylesheet" href="views/tablet_laptop_styling.css">
+    <link rel="stylesheet" href="views/desktop_styling.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!--Navbar-->
+    <div id="navbar" class="navbar">
+        <div class="menu">
+            <div class="mobile">
+                <div class="logo"><span>P</span>aulo MGD</div>
+                <nav class="navb large-screens">
+                    <ul class="navb-list">
+                        <li class="navb-items">
+                            <a href="#home">Home</a>
+                        </li>
+                        <li class="navb-items">
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="navb-items">
+                            <a href="#skills">Skills</a>
+                        </li>
+                        <li class="navb-items">
+                            <a href="#work">Work</a>
+                        </li>
+                        <li class="navb-items">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <img src="images/mobile_profile2.JPG" alt="profile picture" class="profile">
+            </div>
+        </div>
+    </div>
+    <!--Home-->
+    <div id="home" class="home">
+        <div class="home-content">
+            <h1>Hi, I’m Paulo</h1>
+            <p> Self-taught Web Developer with a passion for clean code and real-world problem solving. From chemistry labs and offshore LNG plants to building web solutions from scratch. I’m now crafting my way into the tech industry with focus, resilience, and code.
+            </p>
+            <div class="hire">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+        </div>
+    </div>
+    <!-- About me section -->
+    <div id="about" class="about">
+        <h2 class="subtitle">About Me</h2>
+        <div class="about-content">
+            <img src="images/about_me.JPG" alt="about me picture" class="pic-about-me">
+            <div class="summary">
+                <p>
+                    I come from a background in Chemistry, having ranked in the top of my class, and worked professionally in an offshore LNG production plant.
+                    While I’ve built a strong career in engineering and operations, I discovered a true passion for programming a skill that blends logic, creativity, and building things that actually work.
+                </p>
+            </div>
+        </div>
+       
+    </div>
+    <!-- Skills section -->
+    <div id="skills" class="skills">
+        <h2 class="subtitle">Skills</h2>
+        <div class="skills-content">
+            <!-- <div class="skillset">
+                <p>Now, I’m transitioning into tech. I code to relax, grow, and create. I'm currently focused on:</p>
+            </div> -->
+            <div class="skill-list">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="skillsDisplay('languages', event)">Languages</p>
+                    <p class="tab-links" onclick="skillsDisplay('frontend', event)">Frontend</p>
+                    <p class="tab-links backend-frameworks" onclick="skillsDisplay('backend', event)">Backend & Frameworks</p>
+                    <!-- <p class="tab-links" onclick="skillsDisplay('frameworks', event)">Frameworks</p> -->
+                </div>
+                <div id="languages" class="col active">
+                    <ul class="list-itens">
+                        <li class="itens">HTML5 & CSS3</li>
+                        <li class="itens">JavaScript (ES6+)</li>
+                        <li class="itens">Python</li>
+                    </ul>
+                </div>
+                <div id="frontend" class="col">
+                    <ul class="list-itens">
+                        <li class="itens">HTML5 & CSS3</li>
+                        <li class="itens">JavaScript (ES6+)</li>
+                        <li class="itens">JQuery</li>
+                    </ul>
+                </div>
+
+                <div id="backend" class="col">
+                    <ul class="list-itens">
+                        <li class="itens">Node&Express.JS</li>
+                        <li class="itens">Django</li>
+                        <li class="itens">Bootstrap</li>
+                    </ul>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <!-- My work -->
+    <div id="work">
+        <h2 class="subtitle">Recent Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h4 class="project-title">
+                    <i class="bi bi-code-slash"></i>
+                    Fullstack Project
+                </h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequatur fugiat laboriosam. </p>
+                <a href="#" class="project-link"><i class="bi bi-link"></i></a>
+            </div>
+            <div class="project">
+                <h4 class="project-title">
+                    <i class="bi bi-bar-chart-fill"></i>
+                    Dashboard
+                </h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequatur fugiat laboriosam. </p>
+                <a href="#" class="project-link"><i class="bi bi-link"></i></a>
+            </div>
+            <div class="project nonactive">
+                <h4 class="project-title">
+                    <i class="bi bi-database-check"></i>
+                    Database
+                </h4>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam consequatur fugiat laboriosam. </p>
+                <a href="#" class="project-link"><i class="bi bi-link"></i></a>
+            </div>
+        </div>
+        <button class="btn see-more">See more...</button>
+    </div>
+    <!-- Contact me -->
+    <div id="contact">
+        <h2 class="subtitle">Contact Me</h2>
+        <div class="contacts">
+            <div class="social-media">
+                <a href="#">
+                    <i class="bi bi-facebook"></i> 
+                    <span>Paulo Veronica MGD</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-whatsapp"></i>
+                    <span>~MGD</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-instagram"></i>
+                    <span>paulo.mgd</span>
+                </a>
+                <a href="#">
+                    <i class="bi bi-linkedin"></i>
+                    <span>Paulo Mugaduia</span>
+                </a>
+            </div>
+            <form type="https://formsubmit.co/pauloveronic.@gmail.com" method="POST">
+                <input type="text" class="name" name="name" placeholder="Name" required>
+                <input type="email" class="email" name="email" placeholder="email@sample.com" required>
+                <textarea name="message" id="message" class="message" placeholder="Write your message" rows="4" required></textarea>
+                <button type="submit" class="btn submit">Send</button>
+                <p class="sent"
+                ></p>
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Building with passion. &copy; <span class="year"></span> Paulo Mugaduia. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+
+
+
+
+
+
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
