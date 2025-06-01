@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulo MGD Portfolio</title>
+    <link rel="stylesheet" href="/views/mobile_styling.css">
+    <link rel="stylesheet" href="/views/hireme.css">
+</head>
+<body>
+    <div id="navbar" class="navbar">
+        <div class="menu">
+            <div class="mobile">
+                <div class="logo"><span>P</span>aulo MGD</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="items"> 
+            <div class="intro">
+                <h2>Hire Me</h2>
+                <p>Please fill this form with information needed. Make sure to add a brief about what service do you want.</p>
+            </div>
+            <form action="https://formsubmit.co/pauloveronic@gmail.com" method="POST">
+                <input type="text" class="name" name="name" placeholder="Name" required>
+                <input type="email" class="email" name="email" placeholder="your@email.com" required>
+                <textarea name="message" id="message" class="message" placeholder="Write your message" rows="8" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://pauloveronica.github.io/thank-you.html">
+                <button type="submit" class="btn submit">Send</button>
+                <p class="sent"></p>
+            </form>
+        </div>
+    </div>
+   
+    <footer>
+        <div class="footer-content">
+            <p>Building with passion. &copy; <span class="year"></span> Paulo Mugaduia. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script src="/index.js"></script>
+</body>
+</html>

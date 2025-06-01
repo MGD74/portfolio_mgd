@@ -46,7 +46,7 @@
             <p> Self-taught Web Developer with a passion for clean code and real-world problem solving. From chemistry labs and offshore LNG plants to building web solutions from scratch. I’m now crafting my way into the tech industry with focus, resilience, and code.
             </p>
             <div class="hire">
-                <a href="#contact" class="btn">Hire Me</a>
+                <a href="./public/hireme.html" class="btn">Hire Me</a>
                 <a href="#contact" class="btn">Contact Me</a>
             </div>
         </div>
@@ -58,7 +58,7 @@
             <img src="images/about_me.JPG" alt="about me picture" class="pic-about-me">
             <div class="summary">
                 <p>
-                    I come from a background in Chemistry, having ranked in the top of my class, and worked professionally in an offshore LNG production plant.
+                    I come from a background in Chemistry, and worked professionally in an offshore LNG production plant.
                     While I’ve built a strong career in engineering and operations, I discovered a true passion for programming a skill that blends logic, creativity, and building things that actually work.
                 </p>
             </div>
@@ -69,38 +69,40 @@
     <div id="skills" class="skills">
         <h2 class="subtitle">Skills</h2>
         <div class="skills-content">
-            <!-- <div class="skillset">
+            <div class="skillset">
                 <p>Now, I’m transitioning into tech. I code to relax, grow, and create. I'm currently focused on:</p>
-            </div> -->
+            </div>
             <div class="skill-list">
                 <div class="tab-titles">
                     <p class="tab-links active-link" onclick="skillsDisplay('languages', event)">Languages</p>
                     <p class="tab-links" onclick="skillsDisplay('frontend', event)">Frontend</p>
                     <p class="tab-links backend-frameworks" onclick="skillsDisplay('backend', event)">Backend & Frameworks</p>
-                    <!-- <p class="tab-links" onclick="skillsDisplay('frameworks', event)">Frameworks</p> -->
                 </div>
-                <div id="languages" class="col active">
-                    <ul class="list-itens">
-                        <li class="itens">HTML5 & CSS3</li>
-                        <li class="itens">JavaScript (ES6+)</li>
-                        <li class="itens">Python</li>
-                    </ul>
-                </div>
-                <div id="frontend" class="col">
-                    <ul class="list-itens">
-                        <li class="itens">HTML5 & CSS3</li>
-                        <li class="itens">JavaScript (ES6+)</li>
-                        <li class="itens">JQuery</li>
-                    </ul>
-                </div>
+                <div class="tab-content">
+                     <div id="languages" class="col active">
+                        <ul class="list-itens">
+                            <li class="itens">HTML5 & CSS3</li>
+                            <li class="itens">JavaScript (ES6+)</li>
+                            <li class="itens">Python</li>
+                        </ul>
+                    </div>
+                    <div id="frontend" class="col">
+                        <ul class="list-itens">
+                            <li class="itens">HTML5 & CSS3</li>
+                            <li class="itens">JavaScript (ES6+)</li>
+                            <li class="itens">JQuery</li>
+                        </ul>
+                    </div>
 
-                <div id="backend" class="col">
-                    <ul class="list-itens">
-                        <li class="itens">Node&Express.JS</li>
-                        <li class="itens">Django</li>
-                        <li class="itens">Bootstrap</li>
-                    </ul>
+                    <div id="backend" class="col">
+                        <ul class="list-itens">
+                            <li class="itens">Node&Express.JS</li>
+                            <li class="itens">Django</li>
+                            <li class="itens">Bootstrap</li>
+                        </ul>
+                    </div>
                 </div>
+               
             </div>   
         </div>
     </div>
@@ -140,30 +142,31 @@
         <h2 class="subtitle">Contact Me</h2>
         <div class="contacts">
             <div class="social-media">
-                <a href="https://www.facebook.com/paulo.veronica.58">
+                <a href="#">
                     <i class="bi bi-facebook"></i> 
                     <span>Paulo Veronica MGD</span>
                 </a>
-                <a href="https://wa.me/qr/DGTBEPRYVM3NF1">
+                <a href="#">
                     <i class="bi bi-whatsapp"></i>
                     <span>~MGD</span>
                 </a>
-                <a href="https://www.instagram.com/paulo.mgd/profilecard/?igsh=MXY3OW5zN2MxNmptdQ==">
+                <a href="#">
                     <i class="bi bi-instagram"></i>
                     <span>paulo.mgd</span>
                 </a>
-                <a href="https://www.linkedin.com/in/paulo-veronica-mugaduia-a6767a120/">
+                <a href="#">
                     <i class="bi bi-linkedin"></i>
                     <span>Paulo Mugaduia</span>
                 </a>
             </div>
-            <form action="https://formsubmit.co/pauloveronic@gmail.com" method="POST">
+           <form action="https://formsubmit.co/pauloveronic@gmail.com" method="POST">
                 <input type="text" class="name" name="name" placeholder="Name" required>
-                <input type="email" class="email" name="email" placeholder="email@sample.com" required>
+                <input type="email" class="email" name="email" placeholder="your@mail.com" required>
                 <textarea name="message" id="message" class="message" placeholder="Write your message" rows="4" required></textarea>
+                <input type="hidden" name="_next" value="https://pauloveronica.github.io/thank-you.html">
+                <input type="hidden" name="_captcha" value="false">
                 <button type="submit" class="btn submit">Send</button>
-                <p class="sent"
-                ></p>
+                <p class="sent"></p>
             </form>
         </div>
     </div>
